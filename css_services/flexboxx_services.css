@@ -1,0 +1,30 @@
+/* WORK */
+.img-work{
+    display: flex;
+    justify-content: space-around;
+}
+
+.work-list{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.work-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.work-list h4{
+    display: flex;
+    justify-content: center;
+}
+
+.work-item .link, .work-item .link2{ 
+    display: flex;
+    justify-content: center;
+}

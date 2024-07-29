@@ -1,0 +1,152 @@
+/* MENU  */
+.headerbg{
+    background: #f5f4fc;
+    height: 20vh;
+}
+
+/* WORK */
+.work{
+    height: fit-content;
+    background-color: #f5f4fc;   
+}
+
+.work h2{
+    font-family: "Mosk Ultra-Bold 900";
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 69.5px;
+    color: rgb(64, 64, 64);
+    padding: 80px; 
+}
+
+.titulo-work{
+    width: 76%;
+}
+
+.container-img4{
+    margin: auto 0px auto 0px;
+}
+
+.titulo-work h3{
+    font-family: "Mosk Ultra-Bold 900";
+    font-size: 34px; 
+    font-weight: 700;
+    line-height: 34px;
+    color: rgb(64, 64, 64);
+    margin-bottom: 40px;
+}
+
+.work-list img, .pack{
+    width: 150px;
+    padding: 20px 105px 20px 105px;
+    background-color: rgba(245, 244, 252, 0.62);
+}
+
+
+.work-link{
+    text-decoration: none;
+}
+
+.checks{
+    list-style: inside none ;
+    /* font-family: "Mosk Bold 700"; */
+    font-family: "Segoe UI";
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(64, 64, 64);
+}
+
+.checks li{
+    padding: 0px 0px 15px 35px;
+}
+
+.work-item h4, .work-item .link{
+    padding: 20px;
+    font-family: "Mosk Bold 700";
+    font-size: 20px;
+    line-height: 22px;
+    color: rgb(64, 64, 64); 
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.work-item .link2{
+    margin: 20px auto  20px auto;
+    /* width: fit-content; */
+    /* text-align: center; */
+    height: 30px;
+    font-family: "Mosk Ultra-Bold 900";
+    font-size: 25px;
+    color: rgb(64, 64, 64);
+    text-decoration: none; 
+    border-style: solid;
+    border-width: 2px 6px 6px 2px;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform .2s cubic-bezier(.34,1.56,.64,1);
+}
+
+.work-item .link{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "Mosk Bold 700";
+    font-size: 20px;
+    line-height: 22px;
+    color: rgb(107, 23, 230);   
+}
+
+.link2:hover{
+    color: rgb(107, 23, 230);  
+    /* text-decoration: dashed underline; */
+    /* text-underline-offset: 10px; */
+    border-width: 2px 2px 2px 2px;
+    transform: translate(4px, 4px);
+}
+
+.work-item{
+    width: 360px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    transition: 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.work-item:hover{
+    transform: translateY(-8px);
+    box-shadow: 15px 8px 6px -6px rgba(235, 234, 242, 0.58);
+}
+
+.see{
+    display: inline-block;
+    font-family: "Mosk Ultra-Bold 900";
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(64, 64, 64);
+    text-decoration: none; 
+    border-style: solid;
+    border-width: 2px 6px 6px 2px;
+    border-radius: 10px;
+    position: relative;
+    left: 250px;
+    /* top: 100px; */
+    padding: 10px;
+    transition: transform .2s cubic-bezier(.34,1.56,.64,1);
+}
+
+.see:hover{
+    border-width: 2px 2px 2px 2px;
+    transform: translate(4px, 4px);
+}
+
+@media screen and (max-width:1030px){
+    .titulo-work{
+        width: auto;
+    }
+
+    .work h2{
+        font-size: 40px;
+        line-height: 47px;
+        padding: 60px;
+        text-align: center;
+    }
+}

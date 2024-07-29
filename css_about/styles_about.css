@@ -1,0 +1,150 @@
+/* MENU  */
+.headerbg{
+    background: #FFEF9F;
+    height: 20vh;
+}
+
+/* ABOUT ME */
+.aboutus{
+    height: fit-content;
+    background-color: #FFEF9F;   
+}
+
+.aboutus h2{
+    font-family: "Mosk Ultra-Bold 900";
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 69.5px;
+    color: rgb(64, 64, 64);
+    padding: 80px;    
+}
+
+.img-aboutme{
+    padding-bottom: 50px;
+}
+
+.img-aboutme p{
+    font-family: "Segoe UI";
+    color: rgb(64, 64, 64);
+    font-size: 20px;
+    line-height: 32px;
+    width: 40%;
+    border-style: solid;
+    border-right-width: 2px;
+    border-color: rgb(64, 64, 64);
+    padding-right: 100px;
+}
+
+.img-abouterick{
+    padding-bottom: 50px;
+}
+
+
+.img-abouterick p{
+    font-family: "Segoe UI";
+    color: rgb(64, 64, 64);
+    font-size: 20px;
+    line-height: 32px;
+    width: 40%;
+    border-style: solid;
+    border-left-width: 2px;
+    border-color: rgb(64, 64, 64);
+    padding-left: 100px;
+}
+
+.container-img2{
+    font-family: "Mosk Bold 700";
+    color: rgb(64, 64, 64);
+}
+
+.img2{
+    height: fit-content;
+    width: 400px;
+    border: solid 2px rgb(64, 64, 64);
+    box-shadow: .5rem .5rem 0 0 rgb(64, 64, 64);
+}
+
+.guate_brenda{
+    width: fit-content;
+    position: relative;
+    left: 1.2rem;
+    top: -35rem;
+    padding: .5rem 1.25rem;
+    border: solid 2px rgb(64, 64, 64);
+    box-shadow: .5rem .5rem 0 0 rgb(64, 64, 64);
+    background-color: #f7f7f7;
+}
+
+.guate_erick{
+    width: fit-content;
+    position: relative;
+    left: 1.2rem;
+    top: -35rem;
+    padding: .5rem 1.25rem;
+    border: solid 2px rgb(64, 64, 64);
+    box-shadow: .5rem .5rem 0 0 rgb(64, 64, 64);
+    background-color: #f7f7f7;
+}
+
+.guate_us{
+    width: fit-content;
+    position: relative;
+    left: 1.2rem;
+    top: -35rem;
+    padding: .5rem 1.25rem;
+    border: solid 2px rgb(64, 64, 64);
+    box-shadow: .5rem .5rem 0 0 rgb(64, 64, 64);
+    background-color: #f7f7f7;
+}
+
+.aboutus a{
+    display: inline-block;
+    font-family: "Mosk Ultra-Bold 900";
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(64, 64, 64);
+    text-decoration: none; 
+    border-style: solid;
+    border-width: 2px 6px 6px 2px;
+    border-radius: 10px;
+    position: relative;
+    left: 250px;
+    padding: 10px;
+    transition: transform .2s cubic-bezier(.34,1.56,.64,1);
+}
+
+.aboutus a:hover{
+    border-width: 2px 2px 2px 2px;
+    transform: translate(4px, 4px);
+}
+
+@media screen and (max-width:1030px){
+    .img-aboutme p{
+        border: none;
+        width: auto;
+        padding-top: 20px;
+        padding-right: 0%;
+    }
+
+    .img-abouterick p{
+        border: none;
+        width: auto;
+        padding-top: 20px;
+        padding-left: 0%;
+    }
+
+    .guate_brenda, .guate_erick, .guate_us{
+        position: relative;
+        /* left: 0.5rem; */
+        left: 50%;
+        top: -28rem;
+    }
+
+    .aboutus h2{
+        font-size: 40px;
+        line-height: 47px;
+        padding: 40px;
+        text-align: center;
+    }
+
+}

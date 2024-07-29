@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html class="js" lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM - Dogsitters Of Marin</title>
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css_contact/styles_contact.css">
+        <link rel="stylesheet" type="text/css" href="css/flexboxx.css">
+        <link rel="shortcut icon" href="Images/Logos/logo.png">
+        <script src="main.js" defer></script>
+        
+    </head>
+    <body>
+        <header class="headerbg">
+            <div class="header" id="header">
+                <div class="logo-menu">
+                    <h1><img id="logo" src="Images/Logos/logo.png" alt="Erick logo"></h1>
+                    <a class="button" href="./">Home</a> 
+                </div>
+                
+                <nav class="nav-header-list">
+                    <ul class="header-list">
+                        <li><a class="navlist" href="about_us">About us</a></li>
+                        <li><a class="navlist" href="gallery">Gallery</a></li>
+                        <li><a class="navlist" href="services">Services</a></li>
+                        <li><a class="navlist" href="contact">Contact</a></li>
+                        <li><a class="resume" href="https://ig.me/m/dogsittersofmarin" target="_blank" rel="noopener noreferrer">Book Now!</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-item">
+                        <a class="ctm" href="home.html">Home</a>
+                        <span class="span">Back to the home page.</span>
+                    </li>
+                    <li class="menu-item">
+                        <a class="ctm" href="contact.html">Work</a>
+                        <span class="span">Projects I've done.</span>
+                    </li>
+                    <li class="menu-item">
+                        <a class="ctm" href="contact.html">About me</a>
+                        <span class="span">A little about me and my background.</span>
+                    </li>
+                    <li class="menu-item">
+                        <a class="ctm" href="contact.html">Blog</a>
+                        <span class="span">My latest writings.</span>
+                    </li>
+                </ul>
+                 <img class="img6" src="Images/Extras/chonchain.png">
+            </div> -->
+        </header> 
+
+        <main>
+            <section id="contact" class="contact">
+                <h2>Contact</h2>
+                <section class="img-contact">
+                    <div class="container-img5">
+                        <img class="img5" src="Images/Extras/chonchain.png">
+                    </div>
+                    <section class="titulo-contact">
+                        <h3>Let's get in touch</h3>
+                        <p>Dropping a line to say good day, ask for more specific information or see if our dogs can play some time together? I'd love to hear from you!<br><br>Fill in your info in the form below and I look forward to hearing from you!</p>
+                        <form class="form" id="form">
+                            <div class="full-input">
+                                <label for="first_name">
+                                    Name
+                                    <input type="text" name="name" id="first_name" class="main_input" required placeholder="Daniel Harris">
+                                </label>
+                            </div>
+                            
+                            <div class="full-input">
+                                <label for="email">
+                                    Email
+                                    <input type="email" name="email" id="email" class="main_input" required placeholder="e_invented@dom.com">
+                                </label>
+                            </div>
+
+                            <div class="full-input">
+                                <label for="subject">
+                                    Subject
+                                    <input type="text" name="subject" id="subject" class="main_input" required placeholder="Business hours">
+                                </label>
+                            </div>
+                            
+                            <div class="full-input2">
+                                <label for="message">
+                                    Message
+                                    <textarea cols="70" rows="10" id="message" name="message" class="textarea" required placeholder="Dear friends, I'm a big fan of dogs as well..."></textarea>
+                                </label>
+                            </div>
+        
+                            <input type="submit" value="Send Email" class="submit" id="button" onclick="sendMail()"> 
+                        </form>
+                    </section>
+                    <section class="socials">
+                        <h3>Feeling social? Find us on these online spaces too!</h3>
+                        <ul class="social-list">
+                            <li class="social-item">
+                                <a href="https://www.instagram.com/dogsittersofmarin?igsh=MW9sZ2Rha3h6N3ZsZA%3D%3D" target="_blank" rel="noopener noreferrer"><img class="in" src="Images/Logos/Instagram_Glyph_Gradient.png"></a>
+                            </li>
+                            <li class="social-item">
+                                <a href="https://www.facebook.com/profile.php?id=61563440305422" target="_blank" rel="noopener noreferrer"><img class="github" src="Images/Logos/Facebook_Logo_Primary.png"></a>
+                            </li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <section class="rows">
+                <section>
+                    <h1 class="title-row">Explore</h1>
+                    <ul class="rows-items">
+                        <li><a class="footer_hover" href="services">Services</a></li>
+                        <li><a class="footer_hover" href="about_us">About us</a></li>
+                        <li><a class="footer_hover" href="gallery">Gallery</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h1 class="title-row">Reservations</h1>
+                    <ul class="rows-items">
+                        <li><a class="booking" href="https://ig.me/m/dogsittersofmarin" target="_blank" rel="noopener noreferrer">Book Now!</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h1 class="title-row">Support</h1>
+                    <ul class="rows-items">
+                        <li><a class="footer_hover" href="contact">Contact</a></li>
+                        <!-- <li><a href="contact.html">Contact</a></li>
+                        <li>FAQ's</li> -->
+                    </ul>
+                </section>
+                <section class="info_contact">
+                    <ul class="rows-contact">
+                        <li>Phone : <a href="tel:(415)497-8838" class="dogphone">(415)497-8838</a></li>
+                        <li>Email : <a href="mailto:dogsittersofmarin@gmail.com" class="dogmail">dogsittersofmarin@gmail.com</a></li>
+                        <li>Instagram : <a href="https://www.instagram.com/dogsittersofmarin?igsh=MW9sZ2Rha3h6N3ZsZA%3D%3D" target="_blank" rel="noopener noreferrer" class="dogig">@dogsittersofmarin</a></li>
+                        <li>Facebook : <a href="https://www.facebook.com/profile.php?id=61563440305422" target="_blank" rel="noopener noreferrer" class="dogig">Dogsitters Of Marin </a></li>
+                    </ul>
+                </section>
+            </section>
+            <a href="#header">
+                <img class="logo-footer" src="Images/Logos/logo.png">
+            </a>
+            <p class="Copyright">© 2024 Dogsitters of Marin. All rights reserved</p>        </footer>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+        <script type="text/javascript">
+            emailjs.init('AjTB4Xh7Kkr35Z82H')
+          </script>
+    </body>
+</html>

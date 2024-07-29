@@ -1,0 +1,21 @@
+/* ABOUT ME */
+.img-abouterick{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:1030px){
+    /* ABOUT ME */
+    .img-abouterick{
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+    }
+
+    .img2{
+        position: initial;
+        width: 320px;
+        height: 430px;
+    }
+}
+
